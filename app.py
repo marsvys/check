@@ -160,7 +160,7 @@ if page == "📅 เช็คชุดรายวัน":
                 u1, u2 = c4.columns([1.2, 2.8])
                 uniform_ok = u1.radio(
                     "ชุด",
-                    ["เครื่องแต่งกายครบ", "เครื่องแต่งกายไม่ครบ", "ไม่มาตรวจระเบียบ],
+                    ["เครื่องแต่งกายครบ", "เครื่องแต่งกายไม่ครบ", "ไม่มาตรวจระเบียบ"],
                     index=0 if uniform_ok else 1,
                     key=f"{dk}_{student}_uniform",
                     label_visibility="collapsed",
